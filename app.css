@@ -1,0 +1,38 @@
+
+body {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .busca-container {
+ 
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .busca-container:hover {
+    background-color: #444;
+  }
+  
+  .card {
+   
+    background-color: #333;
+    color: #fff;
+  }
+  
+  
+  .fire {
+   
+    box-shadow: 0px 0px 10px rgba(255, 100, 100, 0.5);
+
+  }
+  .dark-mode-toggle {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .pokemons {
+      grid-template-columns: 1fr;
+    }
+  }
